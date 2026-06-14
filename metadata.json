@@ -1,0 +1,6 @@
+{
+  "name": "KAPADA - Premium B2B Natural Textile Manufacturing",
+  "description": "Premium B2B manufacturer of naturally dyed, chemical-free children's essentials and women's intimate wear, fully compliant with global export health standards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
