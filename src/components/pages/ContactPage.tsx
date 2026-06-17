@@ -10,20 +10,20 @@ export default function ContactPage() {
     {
       title: "Commercial wholesales",
       subtitle: "B2B client onboarding & contracts",
-      email: "wholesale@kapadagarments.com",
-      phone: "+971 50 123 4567"
+      email: "Info@thekapada.com",
+      phone: "+91 6383619810"
     },
     {
       title: "Technical Dermal Lab",
       subtitle: "Special testing & certification files",
-      email: "clinical@kapadagarments.com",
-      phone: "+91 281 555 9811"
+      email: "Info@thekapada.com",
+      phone: "+91 6383619810"
     },
     {
       title: "Logistics Desk",
       subtitle: "Customs clearings & shipping tracking",
-      email: "shipping@kapadagarments.com",
-      phone: "+91 2832 99401"
+      email: "Info@thekapada.com",
+      phone: "+91 6383619810"
     }
   ];
 
@@ -95,15 +95,15 @@ export default function ContactPage() {
                     </tr>
                     <tr className="bg-[#F8F5EE]">
                       <td className="px-6 py-4 font-bold text-brand-green">Email</td>
-                      <td className="px-6 py-4 text-brand-dark">[ wholesale@kapadagarments.com ]</td>
+                      <td className="px-6 py-4 text-brand-dark">[ Info@thekapada.com ]</td>
                     </tr>
                     <tr className="bg-white">
                       <td className="px-6 py-4 font-bold text-brand-green">Phone</td>
-                      <td className="px-6 py-4 text-brand-dark">[ +91 281 555 9811 ]</td>
+                      <td className="px-6 py-4 text-brand-dark">[ +91 6383619810 ]</td>
                     </tr>
                     <tr className="bg-[#F8F5EE]">
                       <td className="px-6 py-4 font-bold text-brand-green">WhatsApp</td>
-                      <td className="px-6 py-4 text-brand-dark">[ +91 98765 43210 ]</td>
+                      <td className="px-6 py-4 text-brand-dark">[ +91 6383619810 ]</td>
                     </tr>
                   </tbody>
                 </table>

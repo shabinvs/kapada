@@ -1,4 +1,4 @@
-export type ActivePage = 'home' | 'products' | 'story' | 'process' | 'partner' | 'contact';
+export type ActivePage = 'home' | 'products' | 'colours' | 'story' | 'process' | 'partner' | 'contact';
 
 export interface Product {
   id: string;

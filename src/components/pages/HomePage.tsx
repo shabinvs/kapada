@@ -122,13 +122,8 @@ export default function HomePage({ onChangePage }: HomePageProps) {
             
             <a
               id="hero-down-catalogue-btn"
-              href="#catalogue-trigger"
-              onClick={(e) => {
-                e.preventDefault();
-                alert("Thank you. Our wholesale collection catalogue is compiling. An email and download link will be dispatched directly to your network once you declare partnership details via our B2B form!");
-                onChangePage('partner');
-                window.scrollTo({ top: 0, behavior: 'instant' });
-              }}
+              href="/Kapada_Catalogue_2026.pdf"
+              download="Kapada_Catalogue_2026.pdf"
               className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-brand-beige/50 hover:border-brand-gold text-brand-beige hover:text-brand-gold text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 cursor-pointer flex items-center justify-center"
             >
               Download Catalogue
@@ -217,7 +212,7 @@ export default function HomePage({ onChangePage }: HomePageProps) {
             >
               <div className="aspect-[16/10] overflow-hidden relative">
                 <img
-                  src="/kids wear.jpg"
+                  src="/kids wear.webp"
                   alt="Naturally dyed kids wear organic collection"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                   loading="lazy"
@@ -262,7 +257,7 @@ export default function HomePage({ onChangePage }: HomePageProps) {
             >
               <div className="aspect-[16/10] overflow-hidden relative">
                 <img
-                  src="/womens wear.jpg"
+                  src="/womens wear.webp"
                   alt="Women organic intimate garments"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                   loading="lazy"

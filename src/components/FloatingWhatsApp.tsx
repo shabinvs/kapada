@@ -2,7 +2,7 @@ export default function FloatingWhatsApp() {
   return (
     <a
       id="global-floating-whatsapp"
-      href="https://wa.me/971501234567?text=Hello%20Kapada%20B2B%20Team,%20we%20are%20interested%20in%20carrying%20your%20organic%20lines."
+      href="https://wa.me/916383619810?text=Hello%20Kapada%20B2B%20Team,%20we%20are%20interested%20in%20carrying%20your%20organic%20lines."
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white p-3.5 rounded-full shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center group"

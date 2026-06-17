@@ -18,6 +18,7 @@ export default function Footer({ onChangePage }: FooterProps) {
     { label: 'Products', id: 'products' },
     { label: 'Our Story', id: 'story' },
     { label: 'Our Process', id: 'process' },
+    { label: 'Colours', id: 'colours' },
     { label: 'Partner With Us', id: 'partner' },
     { label: 'Contact', id: 'contact' },
   ];
@@ -65,7 +66,7 @@ export default function Footer({ onChangePage }: FooterProps) {
                 <Linkedin size={15} />
               </a>
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/916383619810"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
@@ -104,7 +105,7 @@ export default function Footer({ onChangePage }: FooterProps) {
             <ul className="space-y-4 text-sm text-brand-beige/65">
               <li className="flex items-start gap-3">
                 <Phone size={14} className="text-brand-gold mt-0.5 flex-shrink-0" />
-                <span>+91 XXXXXXXXXX</span>
+                <span>+91 6383619810</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={14} className="text-brand-gold mt-0.5 flex-shrink-0" />

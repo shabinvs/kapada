@@ -11,6 +11,7 @@ import OurStoryPage from './components/pages/OurStoryPage';
 import OurProcessPage from './components/pages/OurProcessPage';
 import PartnerWithUsPage from './components/pages/PartnerWithUsPage';
 import ContactPage from './components/pages/ContactPage';
+import ColoursPage from './components/pages/ColoursPage';
 
 export default function App() {
   const [activePage, setActivePage] = useState<ActivePage>('home');
@@ -32,6 +33,8 @@ export default function App() {
         return <HomePage onChangePage={setActivePage} />;
       case 'products':
         return <ProductsPage onChangePage={setActivePage} />;
+      case 'colours':
+        return <ColoursPage />;
       case 'story':
         return <OurStoryPage onChangePage={setActivePage} />;
       case 'process':

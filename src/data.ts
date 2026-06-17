@@ -5,7 +5,7 @@ export const productsList: Product[] = [
     id: 'kids-vest',
     name: "Kids Inner Vest",
     category: 'kids',
-    image: '/kids wear.jpg',
+    image: '/kids vest.webp',
     description: "Soft against young skin. No elastic or synthetic components in the dye chain. Available in natural plant-dye shades.",
     specs: [
       "100% natural cotton",
@@ -19,7 +19,7 @@ export const productsList: Product[] = [
     id: 'kids-shorts',
     name: "Kids Inner Shorts / Briefs",
     category: 'kids',
-    image: '/kids wear.jpg',
+    image: '/kids briefs.webp',
     description: "Gentle on sensitive skin. No synthetic dye residue. Natural waistband elastic options available.",
     specs: [
       "100% natural cotton",
@@ -33,7 +33,7 @@ export const productsList: Product[] = [
     id: 'womens-bra',
     name: "Women's Bra",
     category: 'womens',
-    image: '/womens wear.jpg',
+    image: '/womens bra.webp',
     description: "Designed for daily wear with skin safety as the primary brief. Herbal dye process eliminates synthetic chemical contact with the most sensitive skin areas. No azo dyes. No synthetic fixatives.",
     specs: [
       "Natural cotton / cotton-blend",
@@ -47,7 +47,7 @@ export const productsList: Product[] = [
     id: 'womens-panties',
     name: "Women's Panties / Briefs",
     category: 'womens',
-    image: '/womens wear.jpg',
+    image: '/womens briefs.webp',
     description: "Crafted for sensitive skin zones. No synthetic mordants, no residual chemicals. Available in herbal shades and unbleached natural options.",
     specs: [
       "100% natural cotton",
@@ -62,86 +62,86 @@ export const productsList: Product[] = [
 export const ayurvedaShadesList: AyurvedaShade[] = [
   {
     name: "Yellow",
-    herbSource: "Fresh Turmeric & Marigold",
-    benefits: "Antimicrobial, anti-inflammatory, boosts systemic skin immunity",
+    herbSource: "Turmeric / Tacomo / Onion",
+    benefits: "Turmeric is a natural wonder — beneficial in many health conditions including anti-inflammatory and antioxidant applications.",
     colorHex: "#ECC45E",
     textColorHex: "#222222"
   },
   {
     name: "Green",
-    herbSource: "Tulsi (Holy Basil) & Neem Leaves",
-    benefits: "Natural purifier, repels allergy-inducing factors, balances sebum",
+    herbSource: "Tulasi / Onion / Karisalankanni",
+    benefits: "Tulasi (Holy Basil) is sacred in Ayurveda — supports respiratory function, optimal health and longevity.",
     colorHex: "#778C73",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Red",
-    herbSource: "Manjistha (Indian Madder) Root",
-    benefits: "Soothes hot irritation, supports skin cell detoxification, antioxidant-rich",
+    herbSource: "Kumkum / Maddar",
+    benefits: "Decoction of wood and bark used for skin infections, postpartum tonic and nervous disorder treatment.",
     colorHex: "#AA5446",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Brown",
-    herbSource: "Kathha (Acacia) & Walnut Shells",
-    benefits: "Astringent properties, protects skin barriers, calming natural energy",
+    herbSource: "Vettiver / Velam",
+    benefits: "Vetiver decoctions used for treatment of all kinds of poison in toxicology.",
     colorHex: "#8A6953",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Ivory",
-    herbSource: "Triphala fruit & Sun-washed Clay",
-    benefits: "Relaxes dermal sensory receptors, controls sweat odors, hyper-hygienic",
+    herbSource: "Neem",
+    benefits: "Described in Charaka Samhita as Sarva Roga Nivarini — that which keeps all diseases at bay.",
     colorHex: "#EAE2CF",
     textColorHex: "#222222"
   },
   {
     name: "Blue",
-    herbSource: "Natural Indigo Leaves (Indigofera)",
-    benefits: "Gently cools body temperature, powerful natural antiseptic properties",
+    herbSource: "Indigo",
+    benefits: "One of the oldest dye plants in history with documented skin health benefits.",
     colorHex: "#4C6B8B",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Pink",
-    herbSource: "Sappan Wood extract",
-    benefits: "Aroma-therapeutic soothing, revitalizes natural skin cell radiance",
+    herbSource: "Sappan Tree / Maddar",
+    benefits: "Decoction of wood and bark — postpartum tonic, skin infections and nervous disorder treatment.",
     colorHex: "#D59295",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Black",
-    herbSource: "Harda Fruit & Well-aged Iron Rust",
-    benefits: "Blocks ambient pollutants, highly grounding skin protective qualities",
+    herbSource: "Karungali / Ironwater",
+    benefits: "Used for hair colouring, wound healing and to stop bleeding from bruises.",
     colorHex: "#2F3130",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Orange",
-    herbSource: "Annatto Seeds & Saffron Twigs",
-    benefits: "Energizes microcirculation, promotes natural cell renewal pathways",
+    herbSource: "Annatto / Marigold",
+    benefits: "Bixaceae / Calendula officinalis — natural pigment with skin-soothing properties.",
     colorHex: "#DC8151",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Natural White",
-    herbSource: "Soapnut wash & sun exposure",
-    benefits: "100% natural and un-dyed, completely hyper-allergenic and pure",
+    herbSource: "Animal manures, Soapnut, Fullers earth, Sunlight, Grass",
+    benefits: "Purely natural finishing process.",
     colorHex: "#FAF8F5",
     textColorHex: "#222222",
     borderHex: "#D6CFC4"
   },
   {
     name: "Kaki",
-    herbSource: "Pomegranate Rind & Oak galls",
-    benefits: "Rich in active tannins, prevents bacterial scaling on warm fabrics",
+    herbSource: "Triphala",
+    benefits: "Chebulic myroblan gives healing properties and medicinal benefits to the fabric.",
     colorHex: "#9C8F73",
     textColorHex: "#FFFFFF"
   },
   {
     name: "Grey",
-    herbSource: "Vetiver Root & Fresh Castor Oil",
-    benefits: "Cooling aromatherapeutic effect, highly sweat-absorbable and cooling",
+    herbSource: "Vembadam",
+    benefits: "Anti-inflammatory and anticancer compounds embedded in the dye.",
     colorHex: "#7E8588",
     textColorHex: "#FFFFFF"
   }

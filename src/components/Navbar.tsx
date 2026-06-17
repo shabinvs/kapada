@@ -30,6 +30,7 @@ export default function Navbar({ activePage, onChangePage }: NavbarProps) {
     { label: "PRODUCTS", id: 'products' },
     { label: "OUR STORY", id: 'story' },
     { label: "OUR PROCESS", id: 'process' },
+    { label: "COLOURS", id: 'colours' },
     { label: "PARTNER WITH US", id: 'partner' },
     { label: "CONTACT US", id: 'contact' },
   ];

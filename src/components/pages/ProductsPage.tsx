@@ -60,7 +60,6 @@ export default function ProductsPage({ onChangePage }: ProductsPageProps) {
 
       {/* Grid Layout of products */}
       <section id="products-grid-section" className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
 
         {/* Product Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -81,8 +80,6 @@ export default function ProductsPage({ onChangePage }: ProductsPageProps) {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                   loading="lazy"
                 />
-                
-                
               </div>
 
               {/* Product Body */}
