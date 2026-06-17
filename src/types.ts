@@ -1,4 +1,15 @@
-export type ActivePage = 'home' | 'products' | 'colours' | 'story' | 'process' | 'partner' | 'contact';
+export type ActivePage =
+  | 'home'
+  | 'products'
+  | 'colours'
+  | 'story'
+  | 'process'
+  | 'partner'
+  | 'contact'
+  | 'privacy'
+  | 'terms'
+  | 'shipping'
+  | 'refund';
 
 export interface Product {
   id: string;

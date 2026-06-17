@@ -12,6 +12,10 @@ import OurProcessPage from './components/pages/OurProcessPage';
 import PartnerWithUsPage from './components/pages/PartnerWithUsPage';
 import ContactPage from './components/pages/ContactPage';
 import ColoursPage from './components/pages/ColoursPage';
+import PrivacyPolicyPage from './components/pages/PrivacyPolicyPage';
+import TermsConditionsPage from './components/pages/TermsConditionsPage';
+import ShippingPolicyPage from './components/pages/ShippingPolicyPage';
+import RefundPolicyPage from './components/pages/RefundPolicyPage';
 
 export default function App() {
   const [activePage, setActivePage] = useState<ActivePage>('home');
@@ -43,6 +47,14 @@ export default function App() {
         return <PartnerWithUsPage />;
       case 'contact':
         return <ContactPage />;
+      case 'privacy':
+        return <PrivacyPolicyPage />;
+      case 'terms':
+        return <TermsConditionsPage />;
+      case 'shipping':
+        return <ShippingPolicyPage />;
+      case 'refund':
+        return <RefundPolicyPage />;
       default:
         return <HomePage onChangePage={setActivePage} />;
     }

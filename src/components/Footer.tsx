@@ -23,6 +23,13 @@ export default function Footer({ onChangePage }: FooterProps) {
     { label: 'Contact', id: 'contact' },
   ];
 
+  const policyLinks: { label: string; id: ActivePage }[] = [
+    { label: 'Privacy Policy', id: 'privacy' },
+    { label: 'Terms & Conditions', id: 'terms' },
+    { label: 'Shipping Policy', id: 'shipping' },
+    { label: 'Refund Policy', id: 'refund' },
+  ];
+
   return (
     <footer id="kapada-global-footer" className="bg-brand-dark text-brand-beige relative overflow-hidden">
       {/* Subtle ambient glows */}
@@ -120,11 +127,15 @@ export default function Footer({ onChangePage }: FooterProps) {
               Legal
             </h3>
             <ul className="space-y-3 text-sm text-brand-beige/65">
-              {['Privacy Policy', 'Terms & Conditions', 'Shipping Policy', 'Refund Policy'].map((item) => (
-                <li key={item}>
-                  <span className="hover:text-brand-gold transition-colors duration-200 cursor-pointer">
-                    {item}
-                  </span>
+              {policyLinks.map((link) => (
+                <li key={link.id}>
+                  <button
+                    id={`footer-policy-${link.id}`}
+                    onClick={() => handleNavClick(link.id)}
+                    className="hover:text-brand-gold transition-colors duration-200 cursor-pointer text-left focus:outline-none"
+                  >
+                    {link.label}
+                  </button>
                 </li>
               ))}
             </ul>
