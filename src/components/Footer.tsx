@@ -1,4 +1,4 @@
-import { MapPin, Phone, Instagram, Linkedin, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import { ActivePage } from '../types';
 
 interface FooterProps {
@@ -43,11 +43,13 @@ export default function Footer({ onChangePage }: FooterProps) {
 
           {/* Col 1 — Brand */}
           <div className="lg:col-span-1 space-y-5">
-            <img
-              src="/Kapada full logo.png"
-              alt="Kapada Logo"
-              className="h-10 sm:h-14 w-auto object-contain"
-            />
+            <div className="bg-[#FDFBF7] p-2 inline-block rounded-xl">
+              <img
+                src="/Kapada full logo.png"
+                alt="Kapada Logo"
+                className="h-10 sm:h-14 w-auto object-contain"
+              />
+            </div>
             <p className="text-sm text-brand-beige/60 leading-relaxed font-sans">
               Naturally Dyed. Skin Safe. Sustainably Made.
             </p>
@@ -55,7 +57,7 @@ export default function Footer({ onChangePage }: FooterProps) {
             {/* Social icons */}
             <div className="flex items-center gap-4 pt-1">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/kapadaindiaofficial?igsh=MWM1d2k2N3VsYmczcQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -64,13 +66,13 @@ export default function Footer({ onChangePage }: FooterProps) {
                 <Instagram size={15} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.facebook.com/share/18jFTpQhz7/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"
+                aria-label="Facebook"
                 className="w-9 h-9 rounded-full border border-brand-beige/20 flex items-center justify-center hover:border-brand-gold hover:text-brand-gold transition-all duration-300"
               >
-                <Linkedin size={15} />
+                <Facebook size={15} />
               </a>
               <a
                 href="https://wa.me/916383619810"

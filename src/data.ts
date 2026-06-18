@@ -175,42 +175,42 @@ export const processSteps = [
     number: "01",
     title: "Natural Fibre Sourcing",
     icon: "Wheat",
-    image: "/kids wear.jpg",
+    image: "/Natural Fibre Sourcing.webp",
     description: "We begin with 100% natural fibre — cotton and cotton-blend base fabrics sourced from established textile mills in Dindigul. No synthetic base materials enter the Kapada supply chain."
   },
   {
     number: "02",
     title: "Herbal Dye Preparation",
     icon: "Sparkles",
-    image: "/natural dyes.jpg",
+    image: "/Herbal Dye Preparation.webp",
     description: "Dye baths are prepared using plant-based and herbal sources — roots, bark, leaves, and natural minerals. No synthetic dye compounds. No azo dyes. No heavy metal mordants."
   },
   {
     number: "03",
     title: "Dyeing Process",
     icon: "Flower",
-    image: "/kids wear.jpg",
+    image: "/Dyeing Process.webp",
     description: "Fabric is immersed in herbal dye baths using traditional low-impact processes. Colour is fixed using natural mordants only — alum, tannin, and plant-based fixatives."
   },
   {
     number: "04",
     title: "Finishing and Quality Check",
     icon: "Droplets",
-    image: "/womens wear.jpg",
+    image: "/Finishing and Quality Check.webp",
     description: "Each batch is checked for colour consistency, skin-safety markers, and fabric integrity before it is cut and stitched into final garments."
   },
   {
     number: "05",
     title: "Garment Production",
     icon: "Sun",
-    image: "/kids wear.jpg",
+    image: "/Garment Production.webp",
     description: "Cutting, stitching, and finishing at our Dindigul manufacturing unit. Each piece labelled with fabric composition, dye batch reference, and care instructions."
   },
   {
     number: "06",
     title: "Dispatch and Documentation",
     icon: "ShieldCheck",
-    image: "/womens wear.jpg",
+    image: "/Dispatch and Documentation.webp",
     description: "Orders packed and dispatched with full batch documentation — fabric origin, dye batch reference, and quality check sign-off. Available on request for all B2B orders."
   }
 ];

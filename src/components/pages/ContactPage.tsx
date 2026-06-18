@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { 
   MapPin, Mail, Phone, MessageSquare, Instagram, 
-  Linkedin, Landmark, Clock, ArrowRight, CornerDownRight 
+  Facebook, Landmark, Clock, ArrowRight, CornerDownRight 
 } from 'lucide-react';
 
 export default function ContactPage() {
@@ -116,7 +116,7 @@ export default function ContactPage() {
                 </span>
                 <div className="flex gap-4">
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/kapadaindiaofficial?igsh=MWM1d2k2N3VsYmczcQ=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-brand-bg hover:bg-brand-green hover:text-brand-beige text-brand-dark px-4 py-2.5 rounded-xl text-xs font-semibold transition-all duration-300 w-full justify-center"
@@ -126,13 +126,13 @@ export default function ContactPage() {
                   </a>
                   
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.facebook.com/share/18jFTpQhz7/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-brand-bg hover:bg-brand-green hover:text-brand-beige text-brand-dark px-4 py-2.5 rounded-xl text-xs font-semibold transition-all duration-300 w-full justify-center"
                   >
-                    <Linkedin size={14} />
-                    <span>LinkedIn</span>
+                    <Facebook size={14} />
+                    <span>Facebook</span>
                   </a>
                 </div>
               </div>
